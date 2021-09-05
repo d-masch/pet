@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>PET Project</title>
+    <meta charset="UTF-8" />
+    <!--подключение файла css-->
+    <link rel="stylesheet" type="text/css" href="./CSS/selectors.css"/>
+       <style> 
+       
+      </style>
+  </head>
+  <body>
+  <!-- СЕЛЕКТОРЫ   ТЗ-6 -->
+    <!-- селектор класс -->
+    <div class="select1">
+        <p>
+            селектор в style + внешний файл selectors.css
+        </p>
+    </div>
+    <div class="select1 select2">
+        <p>
+            селектор с двумя классами
+        </p>
+    </div>
+    <!--индетификатор (id) элемента-->
+    <div>
+        <p id="mist">индетификатор</p>
+     </div>
+    <div class="h1">
+        <p class="text">
+            селектор для  блока 1, групирующий селектор
+        </p>
+    </div>
+    <div class="h2">
+        <p class="text">
+            селектор для  блока 2, групирующий селектор
+        </p>
+    </div>
+    <!--селектор атрибутов дочернего элемента-->
+    <nav class="menu">
+        <a href="email">abc@abc.com</a>
+        <ul>
+            <li> <a href="">one</a></li>
+            <li> <a href="">two</a></li>
+            <li> <a href="">three</a></li>
+        </ul>
+    </nav>
+    <!--селектор смежных элементов-->
+    <div>
+       <div class="h3">
+            <p>content 1</p>
+       </div>
+       <div class="description">
+            <p>content 2</p>
+       </div>
+       <div class="description">
+            <p>content 3</p>
+       </div>
+       <div class="description">
+            <p>content 4</p>
+       </div>
+    </div>
+    <!--селектор атрибутов-->
+    <div>
+        <input type="text" placeholder="введите текст">
+    </div>
+  <!--псевдоклассы-->
+    <diV>
+        <p class="content">
+            Наведи сюда курсор, увидишь как работает псевдокласс hover
+        </p>
+    </diV>
+    <div>
+          <button class="button">псевдокласс focus</button>
+    </div> 
+    <div class="list">
+        <ul class="list__links">
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+            <li><a href="">Link 5</a></li>
+        </ul>
+    </div>
+    <div class="text1">
+        <p>параграф 1</p>
+        <p class="class1">параграф 2</p>
+        <p>параграф 3</p>
+        <p>параграф 4</p>
+        <p>параграф 5</p>
+        <p class="class1">параграф 6</p>
+        <p>параграф 7</p>
+    </div>
+
+  </body>
+</html>
