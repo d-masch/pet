@@ -1,0 +1,11 @@
+.bodystyle {
+    font-size: 9px;
+    border: 1px solid red;
+    color: green;
+}
+.init{               /* ключевое слово initial */
+    color: initial;
+}
+.unset{
+    color: unset;
+}
