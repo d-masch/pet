@@ -38,7 +38,7 @@ color: green;
 #mist {                   /*селектор индитефикатор*/
     color: red;
 }
-h3 + .description  {     /*Общий селектор смежных элементов*/
+.h3 + .description  {     /*Общий селектор смежных элементов*/
     border: solid 3px;
     border-color: brown;
 }

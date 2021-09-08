@@ -1,11 +1,25 @@
 .bodystyle {
-    font-size: 9px;
+    font-size: 12px;
     border: 1px solid red;
     color: green;
 }
-.init{               /* ключевое слово initial */
+.init{               /* ключевое слово initial восстанавливает свойства в начальное значение (по умолчанию) */
     color: initial;
 }
-.unset{
+.unset{              /* ключевое слово unset */
     color: unset;
 }
+.secondary {
+    color: #000 !important;
+}
+#pagewrapper{
+   font-size: 30px;
+   color: magenta;
+}
+#content{
+    color: rgb(255, 115, 0);
+}
+.content{
+    color: rgb(255, 0, 0);
+}
+
