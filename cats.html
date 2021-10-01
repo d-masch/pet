@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>PET Project</title>
+    <meta charset="UTF-8" />
+    <style></style>
+    <script defer src="./js/form.js"></script>
+    <script>
+      //ТЗ-15, раздел DO, шаг 2
+      const cats = {
+        abyssinian: "😸",
+        'american-bobtail': "🐱",
+        'siam': "🙀",
+        'bombay': "😼",
+      };
+      for(cat in cats){
+         if(cat.length > 4) {
+         console.log (cat, cats[cat])
+         }
+      };
+      //ТЗ-15, раздел DO, шаг 4
+      const d = [0, 2, 5, -4, 6, 22, -9, -12, ,13, 78];
+      const a1 = [];
+      const a2 = [];
+      for (number of d){
+        if (number %2 == 0){
+          a1.push(number);
+        }
+        else {
+          a2.push(number);
+        }
+        }
+        console.log ("четные", a1);
+        console.log ("нечетные", a2);
+    </script>
+  </head>
+  <body>
+    <!--ТЗ-15, раздел DO, шаг 3   -->
+    <input id="some-object-key" type="text"/>
+    <button id="btn" type="button">Введите значение</button>
+
+  </body>
+</html>
