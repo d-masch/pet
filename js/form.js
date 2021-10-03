@@ -1,5 +1,7 @@
-const someObject = document.getElementById('some-object-key');
-const btn = document.getElementById('btn');
+const someObjectkey = document.getElementById("some-object-key");
+const someObjectvalue = document.getElementById("some-object-value");
+const btn = document.getElementById("btn");
 btn.onclick = () => {
-    alert(someObject.value);
+  document.write("key is: " + someObjectkey.value);
+  document.write("   velue is: " + someObjectvalue.value);
 };

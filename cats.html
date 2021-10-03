@@ -6,38 +6,54 @@
     <style></style>
     <script defer src="./js/form.js"></script>
     <script>
+      //ТЗ-15, раздел DO , шаг 1
+      console.log("*Шаг 1*");
+      const arr = [2, 5, "first", 22, "second", -12, 8, , true, 78, Boolean(0)];
+      for (let i = 0; i < arr.length; i++) {
+        if (i % 2 == 0) {
+          console.log(arr[i]);
+        }
+      }
       //ТЗ-15, раздел DO, шаг 2
+      console.log("*Шаг 2*");
       const cats = {
         abyssinian: "😸",
-        'american-bobtail': "🐱",
-        'siam': "🙀",
-        'bombay': "😼",
+        "american-bobtail": "🐱",
+        siam: "🙀",
+        bombay: "😼",
       };
-      for(cat in cats){
-         if(cat.length > 4) {
-         console.log (cat, cats[cat])
-         }
-      };
+      for (cat in cats) {
+        if (cat.length > 4) {
+          console.log(cat, cats[cat]);
+        }
+      }
       //ТЗ-15, раздел DO, шаг 4
-      const d = [0, 2, 5, -4, 6, 22, -9, -12, ,13, 78];
+      console.log("*Шаг 4*");
+      const d = [0, 2, 5, -4, 6, 22, -9, -12, , 13, 78];
       const a1 = [];
       const a2 = [];
-      for (number of d){
-        if (number %2 == 0){
+      for (number of d) {
+        if (number % 2 == 0) {
           a1.push(number);
-        }
-        else {
+        } else {
           a2.push(number);
         }
-        }
-        console.log ("четные", a1);
-        console.log ("нечетные", a2);
+      }
+      console.log("четные", a1);
+      console.log("нечетные", a2);
     </script>
   </head>
   <body>
     <!--ТЗ-15, раздел DO, шаг 3   -->
-    <input id="some-object-key" type="text"/>
+    <p>ТЗ-15, раздел DO, шаг 3</p>
+    <p>введите в первое поле ключ,  во второе какое-либо значение</p>
+    <div>
+      <input id="some-object-key" type="text" placeholder="key"/>
+    </div>
+    <div>
+      <input id="some-object-value" type="text" placeholder="velue"/>
+    </div>
     <button id="btn" type="button">Введите значение</button>
-
+  </div>
   </body>
 </html>
