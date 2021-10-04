@@ -3,7 +3,15 @@
   <head>
     <title>PET Project</title>
     <meta charset="UTF-8" />
-    <style></style>
+    <style>
+      input {
+        font-size: 30px;
+      }
+      .valueOut1 {
+        display: block; 
+        font-size: 30px
+      }
+    </style>
     <script defer src="./js/form.js"></script>
     <script>
       //ТЗ-15, раздел DO , шаг 1
@@ -45,15 +53,23 @@
   </head>
   <body>
     <!--ТЗ-15, раздел DO, шаг 3   -->
-    <p>ТЗ-15, раздел DO, шаг 3</p>
-    <p>введите в первое поле ключ,  во второе какое-либо значение</p>
-    <div>
-      <input id="some-object-key" type="text" placeholder="key"/>
-    </div>
-    <div>
-      <input id="some-object-value" type="text" placeholder="velue"/>
-    </div>
-    <button id="btn" type="button">Введите значение</button>
-  </div>
+    <form style="font-size: 30px">
+      <p>ТЗ-15, раздел DO, шаг 3</p>
+      <p>введите в первое поле ключ, во второе какое-либо значение</p>
+      <div>
+        <input id="some-object-key" type="text" placeholder="key" />
+      </div>
+      <div>
+        <input id="some-object-value" type="text" placeholder="value" />
+      </div>
+      <div>
+        <input id="btn" type="button" value="enter" />
+      </div>
+    </form>
+    <div
+      style="float: left; font-size: 30px; margin-right: 40px"
+      id="keyOut"
+    ></div>
+    <div id="valueOut" class="valueOut1"></div>
   </body>
 </html>
