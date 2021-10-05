@@ -5,6 +5,8 @@ const btn = document.getElementById("btn");
 btn.onclick = () => {
   someObject[keyInput.value] = valueInput.value;
 
-  document.getElementById("keyOut").innerHTML = keyInput.value;
-  document.getElementById("valueOut").innerHTML = someObject[keyInput.value];
+  let out = document.getElementById("Out");
+  out.innerHTML += `
+ <div class="outKey">Key: ${keyInput.value} Value: ${someObject[keyInput.value]}</div>
+  `;
 };

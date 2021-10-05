@@ -4,13 +4,35 @@
     <title>PET Project</title>
     <meta charset="UTF-8" />
     <style>
+      .form{
+        display:block;
+      }
+      p {
+        display: block;
+        font-size: 30px;
+      }
       input {
         font-size: 30px;
       }
-      .valueOut1 {
-        display: block; 
-        font-size: 30px
+      .outKey {
+     
+        font-size: 30px;
+        margin-right: 40px;
       }
+      .outValue{
+
+        font-size: 30px;
+      }
+      .key{
+        float: left;
+      }
+      .value{
+        display: inline-block;
+      }
+      .button{
+        display: inline-block;
+      }
+
     </style>
     <script defer src="./js/form.js"></script>
     <script>
@@ -53,23 +75,22 @@
   </head>
   <body>
     <!--ТЗ-15, раздел DO, шаг 3   -->
-    <form style="font-size: 30px">
+    <form class="form">
+      <div>
       <p>ТЗ-15, раздел DO, шаг 3</p>
       <p>введите в первое поле ключ, во второе какое-либо значение</p>
-      <div>
+    </div>
+      <div class="key">
         <input id="some-object-key" type="text" placeholder="key" />
       </div>
-      <div>
+      <div class="value">
         <input id="some-object-value" type="text" placeholder="value" />
       </div>
-      <div>
+      <div class="button">
         <input id="btn" type="button" value="enter" />
       </div>
     </form>
-    <div
-      style="float: left; font-size: 30px; margin-right: 40px"
-      id="keyOut"
-    ></div>
-    <div id="valueOut" class="valueOut1"></div>
-  </body>
+    <div class="outValue" >Результат</div>
+    <div id="Out"></div>
+      </body>
 </html>
