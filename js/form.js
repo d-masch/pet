@@ -4,9 +4,8 @@ const someObject = {};
 const btn = document.getElementById("btn");
 btn.onclick = () => {
   someObject[keyInput.value] = valueInput.value;
-
   let out = document.getElementById("Out");
   out.innerHTML += `
- <div class="outKey">Key: ${keyInput.value} Value: ${someObject[keyInput.value]}</div>
-  `;
+ <div class="outKey">Key: ${keyInput.value} 
+ Value: ${someObject[keyInput.value]}</div>`;
 };
