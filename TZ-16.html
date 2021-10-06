@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>ТЗ-16</title>
+    <meta charset="UTF-8" />
+    <style></style>
+    <script>
+      const  add = (a, b) => a + b;
+      //       Измените функцию add таким образом, чтобы
+      //       все условия ниже вывели в консоль true
+      console.log(add(1, 2) === 3);
+      console.log(add(1, "2") === 3);
+      console.log(add("1", 3) === 4);
+      console.log(add("2", "2") === 4);
+      console.log(add(NaN, 2) === 0);
+      console.log(add("", 2) === 2);
+      console.log(add() === 0);
+      console.log(add(true, true) === 2);
+    </script>
+  </head>
+  <body></body>
+</html>

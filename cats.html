@@ -72,7 +72,7 @@
   </head>
   <body>
     <!--ТЗ-15, раздел DO, шаг 3   -->
-    <form class="form">
+    <form class="form" onsubmit="btn.onclick;return false;">
       <div>
         <p>ТЗ-15, раздел DO, шаг 3</p>
         <p>введите в первое поле ключ, во второе какое-либо значение</p>
@@ -84,7 +84,7 @@
         <input id="some-object-value" type="text" placeholder="value" />
       </div>
       <div class="button">
-        <input id="btn" type="button" value="enter" />
+        <input id="btn" type="submit"  value="enter" />
       </div>
     </form>
     <div class="outValue">Результат</div>
