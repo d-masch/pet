@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\cinema"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\archiv"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pet"
+	}
+}
