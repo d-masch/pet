@@ -1,0 +1,67 @@
+/*Шаг 1*/
+.flexbox {
+  box-sizing: border-box;
+}
+.flex-conteiner1 {
+  display: flex;
+
+  border: solid 2px rgb(153, 0, 0);
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-conteiner2 {
+  display: flex;
+  border: solid 2px rgb(153, 0, 0);
+  justify-content: space-around;
+}
+body > div.flex-conteiner2 > div.flex_element-3 {
+  flex-grow: 0.5;
+  flex-shrink: 2;
+  flex-basis: 100px;
+}
+.flex-conteiner3 {
+  display: flex;
+  border: solid 2px rgb(153, 0, 0);
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.flex-conteiner4 {
+  display: flex;
+  border: solid 2px rgb(153, 0, 0);
+
+  justify-content: space-evenly;
+}
+.flex_element-1,
+.flex_element-2,
+.flex_element-3,
+.flex_element-4,
+.flex_element-5,
+.flex_element-6,
+.flex_element-7,
+.flex_element-8 {
+  border-radius: 7px;
+  background-color: rgb(143, 248, 143);
+  font-size: 20px;
+  text-align: center;
+  border: solid 2px black;
+  padding: 10px 20px 10px 20px;
+}
+.line-1 {
+  background-color: rgb(225, 193, 255);
+  min-height: 60px;
+  text-align: center;
+  width: 100px;
+}
+.line-2 {
+  background-color: rgb(255, 0, 0);
+  min-height: 60px;
+  text-align: center;
+  width: 100px;
+}
+.line-3 {
+  background-color: rgb(60, 255, 0);
+  min-height: 60px;
+  text-align: center;
+  width: 100px;
+}

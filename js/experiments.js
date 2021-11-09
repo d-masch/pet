@@ -1,8 +1,8 @@
-let temp = 5;
-console.log(temp);
-function sum(a, b) {
-  temp = 12;  
-  //return a + b + temp;
-}
-const res =  sum(3,5);
-console.log(temp);
+const object  = {
+  1: 'one',  
+  2: 'two',  
+  3: 'three',
+};  
+for  (const key of  Object.keys(object)){  
+  console.log(key); 
+};
