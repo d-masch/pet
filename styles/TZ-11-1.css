@@ -1,10 +1,8 @@
-/*Шаг 1*/
 .flexbox {
   box-sizing: border-box;
 }
 .flex-conteiner1 {
   display: flex;
-
   border: solid 2px rgb(153, 0, 0);
   justify-content: space-around;
   align-items: center;
@@ -22,14 +20,8 @@ body > div.flex-conteiner2 > div.flex_element-3 {
 .flex-conteiner3 {
   display: flex;
   border: solid 2px rgb(153, 0, 0);
-  width: 40%;
+  width: 30%;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.flex-conteiner4 {
-  display: flex;
-  border: solid 2px rgb(153, 0, 0);
-
   justify-content: space-evenly;
 }
 .flex_element-1,
@@ -47,21 +39,66 @@ body > div.flex-conteiner2 > div.flex_element-3 {
   border: solid 2px black;
   padding: 10px 20px 10px 20px;
 }
-.line-1 {
+.flex-conteiner4 {
+  display: flex;
+  border: solid 2px rgb(153, 0, 0);
+  justify-content: space-evenly;
+}
+.flex_element {
+  display: flex;
+  flex-direction: column;
+}
+.flex_element-1,
+.flex_element-2,
+.flex_element-3,
+.flex_element-4,
+.flex_element-5,
+.flex_element-6,
+.flex_element-7,
+.flex_element-8 {
+  border-radius: 7px;
+  background-color: rgb(143, 248, 143);
+  font-size: 20px;
+  text-align: center;
+  border: solid 2px black;
+  padding: 10px 20px 10px 20px;
+}
+.flex_element1-line-1,
+.flex_element-line-1 {
   background-color: rgb(225, 193, 255);
   min-height: 60px;
   text-align: center;
-  width: 100px;
+  width: 150px;
 }
-.line-2 {
+.flex_element1-line-2,
+.flex_element-line-2 {
   background-color: rgb(255, 0, 0);
   min-height: 60px;
   text-align: center;
-  width: 100px;
+  width: 150px;
 }
-.line-3 {
+.flex_element1-line-3,
+.flex_element-line-3 {
   background-color: rgb(60, 255, 0);
   min-height: 60px;
   text-align: center;
-  width: 100px;
+  width: 150px;
+  justify-self: center;
+}
+.flex-conteiner5 {
+  display: flex;
+  border: solid 2px rgb(153, 0, 0);
+  justify-content: space-evenly;
+}
+.flex_element1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body > div.flex-conteiner5 > div:nth-child(2) {
+  order: -1;
+}
+body > div.flex-conteiner5 > div:nth-child(2) > div.flex_element1-line-1 {
+  width: 300px;
+  padding: 10px 10px 10px 10px;
 }
